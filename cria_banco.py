@@ -10,7 +10,6 @@ atualiza_tabela = "ALTER TABLE hoteis ADD estrelas real AFTER nome"
 cria_hotel = "INSERT INTO hoteis VALUES ('alpha','alpha Hotel', 4.3, 345.30,'Rio de janeiro')"
 
 cursor.execute(cria_tabela)
-
 cursor.execute(atualiza_tabela)
 cursor.execute(cria_hotel)
 
